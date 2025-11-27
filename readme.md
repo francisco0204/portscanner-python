@@ -37,30 +37,40 @@ Busca vulnerabilidades asociadas al software detectado en el banner.
 Escaneo normal:
 ```bash
 python run.py scanme.nmap.org 1-200
-
+```
 
 Escaneo rápido:
+```bash
 python run.py scanme.nmap.org 1-500 --threads 300
+```
 
 Exportar JSON:
+```bash
 python run.py scanme.nmap.org 1-200 --json reporte.json
+```
 
 Exportar TXT:
+```bash
 python run.py scanme.nmap.org 1-200 --txt reporte.txt
+```
 
 Sin buscar  CVEs:
+```bash
 python run.py scanme.nmap.org --no-cve
+```
 
 Sin obtener banners:
+```bash
 python run.py scanme.nmap.org --no-banner
 ```
 
 ### INSTALACIÓN
-git clone https://github.com/TU-USUARIO/port-scanner-pro
-cd port-scanner-pro
+git clone https://github.com/francisco0204/portscanner-python
+cd portscanner-python
 pip install -r requirements.txt
 
 ### TECNOLOGÍAS USADAS
+
 Python 3
 sockets
 threading
@@ -70,5 +80,8 @@ requests // urllib
 JSON / TXT para reportes
 
 ### AUTOR
+
 Desarrollado por Francisco Cherbavaz.
 Proyecto orientado al aprendizaje y práctica de ciberseguridad.
+Este proyecto es únicamente para fines educativos.
+No debe utilizarse para escanear sistemas sin autorización.
