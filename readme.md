@@ -53,7 +53,7 @@ python run.py scanme.nmap.org --no-cve
 
 Sin obtener banners:
 python run.py scanme.nmap.org --no-banner
-
+```
 
 ### INSTALACIÓN
 git clone https://github.com/TU-USUARIO/port-scanner-pro
